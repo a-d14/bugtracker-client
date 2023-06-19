@@ -11,6 +11,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { UserRegistrationComponent } from './user-registration/user-registration.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { UserLoginComponent } from './user-login/user-login.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UserLoginComponent } from './user-login/user-login.component';
     ProjectDashboardComponent,
     HeaderComponent,
     UserRegistrationComponent,
-    UserLoginComponent
+    UserLoginComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
