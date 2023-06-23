@@ -1,0 +1,38 @@
+.header {
+    height: 10vh;
+    padding: 20px 0;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.company-title {
+    margin-left: 20px;
+    display: inline-block;
+    width: auto;
+}
+
+.company-title h2 {
+    font-size: 50px;
+    color : #21A5B7;
+}
+
+.navigation {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    font-size: medium;
+    margin-top: 7px;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: aqua;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: aqua;
+    border-radius: 5px;
+}

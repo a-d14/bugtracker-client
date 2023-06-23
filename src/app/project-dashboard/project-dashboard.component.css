@@ -1,19 +1,48 @@
-.circle-red {
+.circle {
     height: 10px;
     width: 10px;
     border-radius: 55%;
     display: inline-block;
+}
+
+.circle-gray {
+    background-color: gray;
+}
+
+.circle-blue {
+    background-color: aqua;
+}
+
+.circle-red {
     background-color: #EE4B2B;
 }
 
+.circle-yellow {
+    background-color: yellow;
+}
+
 .circle-green {
-    height: 10px;
-    width: 10px;
-    border-radius: 55%;
-    display: inline-block;
     background-color: #AAFF00;
 }
 
 .list-group-item {
     padding: 15px;
+}
+
+td{
+    padding: 10px;
+}
+
+.legend {
+    padding: 0 0 20px 0;
+}
+
+.priority-count {
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+}
+
+.priority-count>span {
+    margin: 0 10px;
 }

@@ -5,7 +5,7 @@
 The website will have the following features:</p>
 <ul>
 <li>User Login and Registration</li>
-<li>A Home Page showing all project data at a glance.</li>
+<li>A Home Page showing all work data at a glance.</li>
 <li></li>
 <li></li>
 </ul>
@@ -27,4 +27,5 @@ The website will have the following features:</p>
 <li>A list of all friends that are currently online and offline.</li>
 <li>A list of all the tickets that have been assigned to them with the priority</li>
 </ul>
+
 </div>

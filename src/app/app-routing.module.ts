@@ -5,8 +5,8 @@ import { UserLoginComponent } from './user-login/user-login.component';
 import { UserRegistrationComponent } from './user-registration/user-registration.component';
 
 const routes: Routes = [
-  {path:'', redirectTo: '/project/0', pathMatch: 'full'},
-  {path:'project/0', component: ProjectDashboardComponent},
+  {path:'', redirectTo: 'user/login', pathMatch: 'full'},
+  {path:'home', component: ProjectDashboardComponent},
   {path:'user/register', component: UserRegistrationComponent},
   {path:'user/login', component: UserLoginComponent}
 ];

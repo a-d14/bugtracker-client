@@ -54,7 +54,23 @@ export class ProjectDashboardComponent {
 
   projects: any = [
     {
-      name: '',
+      name: 'DevCollab',
+      ticketPriorityCount: {
+        low: 0,
+        medium: 4,
+        high: 0
+      }
+    },
+    {
+      name: 'MindClear Android App',
+      ticketPriorityCount: {
+        low: 0,
+        medium: 0,
+        high: 0
+      }
+    },
+    {
+      name: 'EduSocial - University Social Media',
       ticketPriorityCount: {
         low: 0,
         medium: 0,
